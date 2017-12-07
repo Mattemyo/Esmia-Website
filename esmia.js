@@ -1,3 +1,8 @@
+var title = document.querySelector('title');
+// console.log(title.innerHTML);
+
+
+
 
 
 
@@ -21,14 +26,16 @@ if(dd<10){
 var today = yyyy + ' '+ arrMonth[mm] +' '+dd;
 
 
-
-
-
 document.getElementById('date').innerHTML= today;
 /* Produkter */
+$(function () {
+    var $a = $('a');
+    console.log(title.innerHTML);
+    
+    for (var i = 0; i < $a.length; i++) {
+       if(title.innerHTML === $a[i].innerHTML){
+           $a[i].classList.add('active');
+       }
+    }
 
-$(document).ready(function () {
-    $(document).on('pageinit', '[data-role="page"]', function () {
-        $(this).children('[data-role="content"]').append('<div class="my-nav-bar">...</div>');
-    });
 });

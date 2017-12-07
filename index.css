@@ -33,6 +33,11 @@ ul.nav a:hover{
     background-color: #FF0000 !important;
     text-shadow: 1px 0.5px;    
 }
+.active{
+    color:yellow !important;
+    background-color: red;
+}
+
 /*Intro*/
 .col-xs-10{
     height: 150px;
