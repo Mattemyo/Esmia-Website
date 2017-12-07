@@ -1,0 +1,144 @@
+html, body{
+    background-color: #FFFF66;
+
+}
+/*Header*/
+header{
+    text-align: center;
+    background-color: #FF0000;
+    color: #FFFF66;
+    top: 0px;
+
+}
+/*Navigation bar*/
+nav, li{
+    font-size: 25px;
+    height: 50px;
+    background-color: #FFFF66;
+    
+
+}
+nav{
+    border: #FF0000 solid;  
+    box-shadow: 0px 22px 35px 2px rgba(0,0,0,0.75) !important;
+}
+
+ul.nav a{
+    color: #FF0000;
+    transition: background-color 0.8s ease;
+    
+}
+ul.nav a:hover{ 
+    color: #FFFF66;
+    background-color: #FF0000 !important;
+    text-shadow: 1px 0.5px;    
+}
+/*Intro*/
+.col-xs-10{
+    height: 150px;
+    background-color: #FFCC00;
+    border: #FF0000 solid;
+    border-top: 0;
+    box-shadow: 0px 0px 10px 1px;
+}
+.image002 img{
+    width: 260px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.col-xs-10 h2{
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+/*Images*/
+#lager{
+    height: 280px;
+}
+#lager h2{
+    position: relative;
+    top: 0;
+    margin-top: 37px;
+
+
+}
+#lager h3{
+    text-align: center;
+}
+.pic{
+    width: 120px;
+    transition: 0.3s ease;
+
+}
+.pic:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+.col-xs-3{
+    margin-top: 50px;
+}
+.col-xs-3 h2{
+    margin-bottom: 50px;
+}
+#kolonial{
+    position: relative;
+    top:-15px;
+}
+/*Fb page*/
+.twitter-timeline{
+    width: 500px;
+    height: 500px;
+}
+h2 img{
+    width: 50px;
+    align-content: center;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: all .5s ease;
+}
+h2 img:hover{
+    box-shadow: 1px 1px 5px 1px;
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/*Footer*/
+
+
+footer{
+    text-align: center;
+    background-color: #FF0000;
+    color: #FFFF66;
+    padding-top: 0;
+    margin-top: 0;
+    box-shadow: 0px -10px 30px 5px rgba(0,0,0,0.75) !important;
+    z-index: -1;
+}
+
+/*Produkter*/
+div#info, div#kontor{
+    height: auto;
+}
+#esmiahome{
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    transition: .2s ease;
+}
+img#esmiahome:hover{
+    box-shadow: 5px 2px 2px 1px black;
+    transform: scale(1.05);
+}
+.produkt{
+    font-size: 30px;
+    padding: 5%;
+}
+
+/*Kontor*/
+div.produkt{
+    margin: auto;
+}
+
+    
